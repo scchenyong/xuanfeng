@@ -1,0 +1,50 @@
+[{
+                "id": "100",
+                "datatime": {
+                        "unit": "day",
+                        "offset": 0
+                },
+                "datazip": {
+                        "type": ".tar.gz",
+                        "sourcePath": "/data/temp/hgw_static.tar.gz",
+                        "targetPath": "/data/temp/hgw_static_YYYYMMDD",
+                        "clean": false
+                }
+        }, {
+                "id": "101",
+                "datatime": {
+                        "unit": "day",
+                        "offset": 0
+                },
+                "datazip": {
+                        "type": ".gz",
+                        "sourcePath": "/data/temp/no_pm.txt.gz",
+                        "targetPath": "/data/temp/no_pm_YYYYMMDD.txt",
+                        "clean": false
+                }
+        }, {
+                "id": "000_optical",
+                "datatime": {
+                        "unit": "day",
+                        "offset": -1
+                },
+                "datazip": {
+                        "type": ".gz",
+                        "sourcePath": "/data/gatherfiles/tmp/optical/000/YYYYMMDD/opticaldata_new_YYYY_MM_DD.txt.gz",
+                        "targetPath": "/data/gatherfiles/datafiles/optical/000/YYYYMMDD/opticaldata_new_YYYY_MM_DD.csv",
+                        "clean": true
+                }
+        }, {
+                "id": "016_optical",
+                "datatime": {
+                        "unit": "day",
+                        "offset": -1
+                },
+                "datazip": {
+                        "type": ".gz",
+                        "sourcePath": "/data/gatherfiles/tmp/optical/016/YYYYMMDD/opticaldata_dy_YYYYMMDD.txt.gz",
+                        "targetPath": "/data/gatherfiles/tmp/optical/016/YYYYMMDD/opticaldata_dy_YYYYMMDD.csv",
+                        "clean": true
+                }
+        }
+]
